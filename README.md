@@ -1,3 +1,5 @@
+Please note this is alpha version.
+
 Data-URL Image Handler
 ======================
 
@@ -32,10 +34,10 @@ Example
     
     include 'vendor/autoload.php';
     
-    $persister = new SimpleFilePersister();
+    $persister = new FilePersister();
     $handler = new Handler($persister);
-    
-    $fileOptions = new FilePersisterOptions("./image.png");
-    
-    $handler->handleImage(DataUrlSample::$validDataUrl, $fileOptions);
+
+    $options = new FilePersisterOptions("./php.jpg");
+    $success = $handler->handleImage(DataUrlSample::$validDataUrl, $options);
+
 ```
