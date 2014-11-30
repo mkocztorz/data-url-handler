@@ -28,16 +28,16 @@ Example
 
 ```php
     use Mkocztorz\DataUrlHandler\DataUrl\Handler;
+    use Mkocztorz\DataUrlHandler\Persister\FilePersister;
     use Mkocztorz\DataUrlHandler\Persister\Options\FilePersisterOptions;
-    use Mkocztorz\DataUrlHandler\Persister\SimpleFilePersister;
     use Mkocztorz\DataUrlHandler\Tests\DataUrlSample;
     
     include 'vendor/autoload.php';
     
     $persister = new FilePersister();
     $handler = new Handler($persister);
-
-    $options = new FilePersisterOptions("./php.jpg");
-    $success = $handler->handleImage(DataUrlSample::$validDataUrl, $options);
+    
+    $options = new FilePersisterOptions("./php2.jpg");
+    $handler->handleImage(DataUrlSample::$validDataUrl, $options);
 
 ```
