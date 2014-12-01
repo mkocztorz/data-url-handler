@@ -5,7 +5,6 @@ namespace Mkocztorz\DataUrlHandler\Persister;
 use Mkocztorz\DataUrlHandler\DataUrl\ImageInterface;
 use Mkocztorz\DataUrlHandler\Exception\SaveFileErrorException;
 use Mkocztorz\DataUrlHandler\Persister\Options\FilePersisterOptions;
-use Mkocztorz\DataUrlHandler\Persister\Options\FilePersisterOptionsInterface;
 use Mkocztorz\DataUrlHandler\Persister\Options\PersisterOptionsInterface;
 
 /**

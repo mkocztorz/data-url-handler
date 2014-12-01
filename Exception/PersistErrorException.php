@@ -7,4 +7,4 @@ use RuntimeException;
 class PersistErrorException extends RuntimeException
 {
 
-} 
+}

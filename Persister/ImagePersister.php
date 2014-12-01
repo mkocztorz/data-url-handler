@@ -34,4 +34,4 @@ abstract class ImagePersister implements ImagePersisterInterface
     }
 
 
-} 
+}

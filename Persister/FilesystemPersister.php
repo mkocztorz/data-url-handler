@@ -46,4 +46,4 @@ abstract class FilesystemPersister extends ImagePersister
     {
         return $persisterOptions instanceof FilePersisterOptions;
     }
-} 
+}

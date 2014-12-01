@@ -3,11 +3,8 @@
 namespace Mkocztorz\DataUrlHandler\Persister;
 
 use Mkocztorz\DataUrlHandler\DataUrl\ImageInterface;
-use Mkocztorz\DataUrlHandler\Exception\SaveFileErrorException;
 use Mkocztorz\DataUrlHandler\Exception\SaveInEntityErrorException;
 use Mkocztorz\DataUrlHandler\Persister\Options\EntityPersisterOptions;
-use Mkocztorz\DataUrlHandler\Persister\Options\FilePersisterOptions;
-use Mkocztorz\DataUrlHandler\Persister\Options\FilePersisterOptionsInterface;
 use Mkocztorz\DataUrlHandler\Persister\Options\PersisterOptionsInterface;
 
 class EntityPersister extends ImagePersister

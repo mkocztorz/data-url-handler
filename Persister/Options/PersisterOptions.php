@@ -20,4 +20,4 @@ class PersisterOptions implements PersisterOptionsInterface
         return $this->options[$name];
     }
 
-} 
+}

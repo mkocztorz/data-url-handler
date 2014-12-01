@@ -145,4 +145,4 @@ class Image implements ImageInterface
             $this->allowedMimeTypes[] = $mimeType;
         }
     }
-} 
+}

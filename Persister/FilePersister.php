@@ -5,9 +5,7 @@ namespace Mkocztorz\DataUrlHandler\Persister;
 use Mkocztorz\DataUrlHandler\DataUrl\ImageInterface;
 use Mkocztorz\DataUrlHandler\Exception\SaveFileErrorException;
 use Mkocztorz\DataUrlHandler\Persister\Options\FilePersisterOptions;
-use Mkocztorz\DataUrlHandler\Persister\Options\FilePersisterOptionsInterface;
 use Mkocztorz\DataUrlHandler\Persister\Options\PersisterOptionsInterface;
-use SebastianBergmann\Exporter\Exception;
 
 class FilePersister extends FilesystemPersister
 {
@@ -33,7 +31,6 @@ class FilePersister extends FilesystemPersister
     /**
      * @param ImageInterface $image
      * @return resource
-     * @throws InvalidImageException
      */
     protected function getImageResourceHandle(ImageInterface $image)
     {

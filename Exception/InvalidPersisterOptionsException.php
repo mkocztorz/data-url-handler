@@ -7,4 +7,4 @@ use InvalidArgumentException;
 class InvalidPersisterOptionsException extends InvalidArgumentException
 {
     const INVALID_TYPE = 1;
-} 
+}

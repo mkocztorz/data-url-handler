@@ -23,4 +23,4 @@ class EntityPersisterOptions extends PersisterOptions
     {
         return $this->getOption('setter');
     }
-} 
+}

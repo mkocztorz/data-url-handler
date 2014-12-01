@@ -10,4 +10,4 @@ class DataUrlHandler
     {
         return new Image($dataUrl);
     }
-} 
+}
