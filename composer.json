@@ -16,7 +16,7 @@
         }
     ],
     "autoload": {
-        "psr-0": {"Mkocztorz\\DataUrlHandler\\": ""}
+        "psr-4": {"Mkocztorz\\DataUrlHandler\\": ""}
     },
     "minimum-stability": "dev"
 }
